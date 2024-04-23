@@ -128,7 +128,7 @@ int main(void)
 	         memset(str,0,sizeof(str));
 
 	       }
-	     else if((str[0]==133) && (str[1]==32) && (str[2]==109) && (str[3]==158) && (str[4]==198) )
+	     else if((str[0]==53) && (str[1]==87) && (str[2]==116) && (str[3]==128) && (str[4]==133) )
 	       {
 	    	 lcd_send_string("KART2 OKUNDU");
 	    	 HAL_GPIO_WritePin(GPIOB,GPIO_PIN_6,GPIO_PIN_RESET);
